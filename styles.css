@@ -1,0 +1,106 @@
+body,
+form,
+input{
+    font-family: "Poppins", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+header,footer{
+    padding: 10px;
+    background-color: #7193d3;
+    text-align: center;
+}
+
+footer a {
+    margin: 5px;
+    padding: 10px;
+}
+.feet{
+    margin-top: 165px;
+}
+
+footer a i {
+    font-size: 18px;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+main{
+    margin-top: 50px;
+}
+fieldset{
+    display: flex;
+   flex-direction: column;
+   padding:  40px 20px;
+   border-radius:6px ;
+   
+}
+legend{
+    text-align: center;
+    font-size: 40px;
+}
+.form-wrapper{
+   max-width: 500px;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 30px;
+   box-sizing: border-box;
+   background-color: #fff;
+   border-radius: 6px;
+   box-shadow:0 0 6px #ccc;
+}
+form h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+form h1{
+    text-align: center;
+}
+form h3 a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.input-field{
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-top: 16px;
+    padding-top: 16px;
+    font-size: 16px;
+    outline: none;
+}
+span{
+    color: green;
+    font-size: 50px;
+}
+
+.policy{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+
+button{
+display: inline-block;
+border: none;
+padding: 14px 36px;
+border-radius: 30px;
+background-color: #406cbe;
+margin-top: 15px;
+cursor: pointer;
+color: #fff;
+letter-spacing: 1px;
+font-weight: 500;
+font-size: 15px;
+}
+
